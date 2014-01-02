@@ -1,0 +1,14 @@
+{
+  "name": "config",
+  "repo": "tipm/config",
+  "description": "Easy configuration setting and getting for your project.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
