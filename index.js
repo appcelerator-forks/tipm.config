@@ -9,7 +9,7 @@
 
 function Config(){
   if (!(this instanceof Config)) return new Config();
-  this.settings = data;
+  this.settings = {};
 }
 
   /**
