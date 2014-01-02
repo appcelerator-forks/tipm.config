@@ -1,7 +1,7 @@
 
 # config
 
-  Easy configuration setting and getting for your project.
+  Easy configuration for your project.
 
 ## Installation
 
@@ -11,13 +11,38 @@
 
 ## API
 
+ Make something configurable:
 
+```js
+var config = require('config');
+
+// initialize with some data
+config.set({
+  x: 'some_value'
+  y: 'some_other_value'
+});
+```
+
+Config has the following function available
+
+```js
+.get(name)
+.set(name, val)
+.set(obj)
+.enable(name)
+.disable(name)
+.enabled(name)
+.disabled(name)
+```
+
+## Credits
+Based on [configurable.js](https://github.com/visionmedia/configurable.js)
 
 ## License
 
   The MIT License (MIT)
 
-  Copyright (c) 2014 <copyright holders>
+  Copyright (c) 2014 Bodhi5, Inc. <info@bodhi5.com>
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
